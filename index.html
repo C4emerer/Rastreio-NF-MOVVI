@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Rastreando..</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <div class="background">
+            <img src="https://awkalab.com.br/wp-content/uploads/2021/06/cropped-cropped-favicon-1.png" alt="Imagem" class="imagem-opaca">
+        <h1 class="titulo">Rastreamento Movvi</h1>
+            
+        <form id="trackForm" class="hidden">
+            <label for="cnpj" class="hidden">CNPJ:</label>
+            <input type="text"  class="hidden" id="cnpj" name="cnpj" required /><br />
+            <label for="numero" class="hidden">NF:</label>
+            <input type="text"  class="hidden" id="unumero" name="numero" required /><br />
+            <button type="submit"  class="hidden">Rastrear</button>
+        </form>
+        <div id="result"></div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
